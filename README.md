@@ -25,3 +25,16 @@ netstat -aon | findstr :5432
 ```powershell
 tasklist | findstr postgres
 ```
+# Check Logs 
+### Navigate to logs
+```bash
+cd "/c/Program Files/PostgreSQL/16/data/log"
+```
+### List all logs 
+```bash
+ls -ltr
+```
+### Print log
+```bash
+cat <log-name>
+```
